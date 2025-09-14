@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 80">
+  <style>
+    .title { font: 700 36px 'Georgia', serif; }
+    .sub { font: 500 14px 'Arial', sans-serif; letter-spacing: 1px; }
+  </style>
+  <rect width="520" height="80" fill="white"/>
+  <text x="10" y="48" class="title" fill="#3B2A22">Brian's Arabica</text>
+  <text x="14" y="70" class="sub" fill="#815B48">Straight from Uganda</text>
+  <g transform="translate(410,10)">
+    <rect x="0" y="0" width="84" height="16" fill="#000"/>
+    <rect x="0" y="16" width="84" height="16" fill="#CE1126"/>
+    <rect x="0" y="32" width="84" height="16" fill="#FCDC04"/>
+    <circle cx="12" cy="12" r="4" fill="#FCDC04" opacity="0.8"/>
+  </g>
+</svg>

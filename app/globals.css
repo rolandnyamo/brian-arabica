@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fff;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  background: #F5F0E6;
+}
+
+.section {
+  @apply px-6 md:px-10 lg:px-16 xl:px-24;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 font-medium transition shadow-brand;
+}
+
+.btn-primary {
+  @apply bg-espresso text-stone hover:bg-clay;
+}
+
+.btn-outline {
+  @apply border border-espresso text-espresso hover:bg-espresso hover:text-stone;
+}
+
+.card {
+  @apply bg-white/90 backdrop-blur rounded-2xl shadow-brand border border-black/5;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold bg-stone text-espresso border border-black/5;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #CE1126, #FCDC04, #2F6B3F, #2A5C8D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.kitenge-mask {
+  mask-image: url('/images/pattern-kitenge.svg');
+  mask-repeat: repeat;
+  -webkit-mask-image: url('/images/pattern-kitenge.svg');
+  -webkit-mask-repeat: repeat;
+}
+
+hr.separator {
+  @apply border-0 h-px bg-gradient-to-r from-transparent via-espresso/30 to-transparent my-16;
+}
+
+.details summary {
+  list-style: none;
+}
+
+.details summary::-webkit-details-marker {
+  display: none;
+}
+
+.details[open] .chev {
+  transform: rotate(180deg);
+}

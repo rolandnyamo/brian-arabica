@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCDC04"/>
+      <stop offset="100%" stop-color="#F5F0E6"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#815B48"/>
+      <stop offset="100%" stop-color="#3B2A22"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2F6B3F"/>
+      <stop offset="100%" stop-color="#2A5C8D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="720" fill="url(#sky)"/>
+  <circle cx="220" cy="140" r="80" fill="#F2C300" opacity="0.7"/>
+  <path d="M0,520 C200,420 360,480 560,430 C760,380 980,460 1440,360 L1440,720 L0,720 Z" fill="url(#hill2)" opacity="0.9"/>
+  <path d="M0,580 C240,500 400,560 640,520 C900,475 1000,520 1440,460 L1440,720 L0,720 Z" fill="url(#hill1)" opacity="0.95"/>
+</svg>

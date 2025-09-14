@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360">
+  <rect width="540" height="360" fill="#F5F0E6"/>
+  <g transform="translate(40,220)">
+    <rect x="0" y="0" width="460" height="26" fill="#815B48"/>
+    <rect x="0" y="-8" width="460" height="8" fill="#3B2A22" opacity="0.2"/>
+    <rect x="30" y="-120" width="120" height="120" fill="#E9E0D9" stroke="#000" stroke-opacity="0.05"/>
+    <rect x="170" y="-120" width="120" height="120" fill="#E3E9E1" stroke="#000" stroke-opacity="0.05"/>
+    <rect x="310" y="-120" width="120" height="120" fill="#EFE7D8" stroke="#000" stroke-opacity="0.05"/>
+    <rect x="30" y="-140" width="400" height="18" fill="#000" opacity="0.06"/>
+  </g>
+  <text x="270" y="70" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#3B2A22">Bulk Purchase</text>
+  <text x="270" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#815B48">Pallets & container loads</text>
+</svg>

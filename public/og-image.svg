@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCDC04"/>
+      <stop offset="100%" stop-color="#F5F0E6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <text x="80" y="220" font-family="Georgia,serif" font-size="72" fill="#3B2A22">Brian's Arabica</text>
+  <text x="84" y="280" font-family="Arial,sans-serif" font-size="28" fill="#815B48">Straight from Uganda</text>
+  <rect x="80" y="320" width="280" height="36" fill="#000"/>
+  <rect x="80" y="356" width="280" height="36" fill="#CE1126"/>
+  <rect x="80" y="392" width="280" height="36" fill="#FCDC04"/>
+</svg>

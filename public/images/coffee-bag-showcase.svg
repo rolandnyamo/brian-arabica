@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+  <rect width="600" height="420" fill="#F5F0E6"/>
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="160" height="240" rx="12" fill="#E9E0D9" stroke="#000" stroke-opacity="0.04"/>
+    <rect x="220" y="0" width="160" height="240" rx="12" fill="#E3E9E1" stroke="#000" stroke-opacity="0.04"/>
+    <rect x="440" y="0" width="160" height="240" rx="12" fill="#EFE7D8" stroke="#000" stroke-opacity="0.04"/>
+    <text x="80" y="270" text-anchor="middle" font-family="Arial" font-size="12" fill="#3B2A22">Roasted</text>
+    <text x="300" y="270" text-anchor="middle" font-family="Arial" font-size="12" fill="#3B2A22">Green</text>
+    <text x="520" y="270" text-anchor="middle" font-family="Arial" font-size="12" fill="#3B2A22">Ground</text>
+  </g>
+</svg>

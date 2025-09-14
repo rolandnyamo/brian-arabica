@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3E9E1"/>
+      <stop offset="100%" stop-color="#CFE0D0"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="540" height="360" fill="#F5F0E6"/>
+  <g transform="translate(120,40)">
+    <rect x="0" y="0" width="300" height="280" rx="18" fill="url(#paper)" stroke="#000" stroke-opacity="0.05"/>
+    <rect x="0" y="0" width="300" height="40" rx="18" fill="#000" fill-opacity="0.06"/>
+    <rect x="30" y="70" width="240" height="140" rx="12" fill="white" stroke="#000" stroke-opacity="0.05"/>
+    <g transform="translate(30,70)">
+      <rect x="0" y="0" width="240" height="36" fill="#000"/>
+      <rect x="0" y="36" width="240" height="36" fill="#CE1126"/>
+      <rect x="0" y="72" width="240" height="36" fill="#FCDC04"/>
+    </g>
+    <text x="150" y="170" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3B2A22">Brian's Arabica</text>
+    <text x="150" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#815B48">Straight from Uganda</text>
+    <rect x="12" y="0" width="276" height="280" fill="url(#shadow)" rx="18"/>
+    <text x="150" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#3B2A22">Unroasted (Green) Beans</text>
+  </g>
+</svg>
